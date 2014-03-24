@@ -13,7 +13,7 @@ MainList::MainList(void)
 MainList::~MainList(void)
 {
 	Music * pCur = pHead;
-	for(pCur = pHead; !pCur;)
+	for(pCur = pHead; pCur;)
 	{
 		pCur = pHead->getNext();
 		delete(pHead);

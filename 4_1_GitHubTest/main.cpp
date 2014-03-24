@@ -43,8 +43,18 @@ int main()
 			break;
 		}
 	case 2:		//delete music
-		
-		break;
+		{
+			char title[16] = {0};
+			char artist[16] = {0};
+			char genre[16] = {0};
+			cout << "Enter title : ";
+			cin >> title;
+			cout << "Enter artist : ";
+			cin >> artist;
+			cout << "Enter genre : ";
+			cin >> genre;
+			break;
+		}
 	case 3:		//find music
 		
 		system("cls");
