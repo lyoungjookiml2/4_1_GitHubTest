@@ -10,6 +10,7 @@ Music::Music(void)
 	memset(title, 0, 16);
 	memset(artist, 0, 16);
 	memset(genre, 0, 16);
+	mNext = NULL;
 }
 
 Music::~Music(void)
@@ -44,4 +45,14 @@ char * Music::getGenre()
 void Music::setGenre(char * newGenre)
 {
 	strcpy(title, newGenre);
+}
+
+Music * Music::getNext()
+{
+	return mNext;
+}
+
+void Music::setNext( Music * newNext )
+{
+	mNext = newNext;
 }

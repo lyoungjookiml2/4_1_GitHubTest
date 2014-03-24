@@ -29,8 +29,19 @@ int main()
 	switch(num)
 	{
 	case 1:		//insert new music
-		
-		break;
+		{
+			char title[16] = {0};
+			char artist[16] = {0};
+			char genre[16] = {0};
+			cout << "Enter title : ";
+			cin >> title;
+			cout << "Enter artist : ";
+			cin >> artist;
+			cout << "Enter genre : ";
+			cin >> genre;
+			list.insertMusic(title, artist, genre);
+			break;
+		}
 	case 2:		//delete music
 		
 		break;
