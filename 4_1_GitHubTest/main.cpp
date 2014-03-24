@@ -28,13 +28,13 @@ int main()
 	//////////////////////////////////////////////////////////////////////////
 	switch(num)
 	{
-	case 0:		//insert new music
+	case 1:		//insert new music
 		
 		break;
-	case 1:		//delete music
+	case 2:		//delete music
 		
 		break;
-	case 2:		//find music
+	case 3:		//find music
 		
 		system("cls");
 		menu2();
